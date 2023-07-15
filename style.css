@@ -1,8 +1,7 @@
-:global{
-    font-family: 'Barlow Condensed', sans-serif;
-    background-color: gray ;
-}
+
 
 h1 {
-    font-size: 20%;
+    font-size: 70%;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: gray ;
 }
