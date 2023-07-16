@@ -1,4 +1,4 @@
-tbody {
+body {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
 }
@@ -7,13 +7,13 @@ header{
     text-align: center;
 }
 img{ 
-    height: 50;
-    width: 50;
-    float:left
+    float:left;
+    width: 15%;
 }
 
 h1{
-    float: right
+    width: 85%;
+    float: right;
     font-weight: 500;
     letter-spacing: 4px;
     font-size: 50px;
