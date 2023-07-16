@@ -1,98 +1,123 @@
-body {
+body{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 300;
     margin: 15px;
+    background-color: rgb(235, 230, 230);
 }
 
-header{
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0.5em;
+}
+header {
     text-align: center;
 }
-img{ 
-    float:left;
-    width: 15%;
 
-}
-#title{
+#top {
     border-color: #cc9999;
     border-style: solid;
     border-radius: 5px;
-    margin: 15px;
+    padding: 2em;
+    height: 8em;
+    width: 70%;
+    margin-left: 12%;
+    margin-right: 15%;
 }
 
-h1{
-    color:#0e2037 ;
-    width: 82%;
+
+#top h3{
+    color: #cc9999;
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: 500;
+    width: 100%;
+}
+
+#photo {
+    width: 18%;
+    float: left;
+    height: 100%;
+}
+
+#name {
+    width: 80% ;
     float: right;
+    height: 50%;
+    color: #0e2037;
     font-weight: 500;
     letter-spacing: 4px;
     font-size: 50px;
-    margin-bottom: 0;
-    margin-top: 0;
 }
 
-#details h3 {
- color: #cc9999;
- margin-top: 0 ;
- font-size: 20px;
- font-weight: 500;
- width: 100%;
+#title {
+    width: 80%;
+    float: right;
+    height: 50%;
+    margin-top: 2em;
 }
 
-ul{
+#details {
+    padding: 2em;
+    height: 5em;
     list-style-type: none;
 }
 
-#contact{
+#contact {
+    width: 49%;
     float: left;
-    width: 30%;
-
 }
 
-#lists{
-    color:#0e2037 ;
+#sites {
+    width: 49%;
+    float: right;
+    margin-top: 1em;
+}
+
+#objective {
+    border-color: #cc9999;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    text-align:center;
+}
+
+#left {
+    width: 46%;
+    float: left;
+    padding: 2%;
+}
+
+#right {
+    width: 46%;
+    float: right;
+    padding: 2%;
+    
+}
+
+#skills {
+    height: 10em;
+}
+
+#courses {
+    height: 10em;
+    padding-top: 2em;
+    list-style-type: none;
+}
+
+#experience {
+    height: 20.5em;
     width: 100%;
-    height: 70px;
-    margin-bottom: 20px;
+
 }
 
-#pages {
+#education {
+    border-color: #cc9999;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    height: 13em;
+    margin-top: 25em;
     width: 50%;
-    float: right;
-    margin-top: 25px;
 }
 
-#objective{
-    border-color: #cc9999;
-    border-top-style:dotted;
-    border-bottom-style: dotted;
-    margin: 10px;
-}
-
-#skill{
-    margin-left: 60px;
-    float:left;
-    width: 35%;
-    text-align: left;
-    border-color: #cc9999;
-    border-right-style: dotted;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-#experience{
-    margin-left: 20 px;
-    width: 55%;
-    float: right;
-    text-align: left;
-}
-
-#courses ul{
-    padding-left: 0;
-}
-
-#education{
-    margin-top: 30px;
-    border-color: #cc9999;
-    border-bottom-style: dotted;
-    margin: 10px;
+#references {
+    background-color: #c99;
 }
