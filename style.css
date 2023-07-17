@@ -118,6 +118,7 @@ div{
     border-top-style: dotted;
     height: 13em;
     width: 50%;
+    margin: 0;
 }
 
 #references {
